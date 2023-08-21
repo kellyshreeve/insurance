@@ -1,8 +1,8 @@
 # Predicting Number of Insurance Benefits
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/Zuber_Rides_Analysis/blob/main/images/carimage.png" 
-  alt="Purple car cartoon">
+  <img src="https://github.com/kellyshreeve/predicting-insurace-benefits/blob/main/images/insurance_clipart.png" 
+  alt="Insurance clip art">
 </p>
 
 # Project Overview
