@@ -9,7 +9,7 @@
 
 # Project Overview
 
-This repository hosts an in-depth analysis of ride-share customer behavior in Chicago and includes descriptive statistics, data visualizations, and hypothesis tests on data from competitors in the area. This data science project was conducted for Zuber, a new ride share company launching in Chicago, with the purpose of finding which companies are top competitors, which neighborhoods are most popular for drop offs, and whether there is a difference in trip length on rainy days and sunny days.
+An imbalanced classification machine learning project predicting two outomes: 1) whether a customer will use insurance benefits, and 2) how many benefits a customer will use. Pipelines, GridSearchCV, and class balancing techniques are used to fit and tune kNN binary classification, logistic regression, kNN multi-class classification, and random forest multi-class classification. Class balancing techniques of SMOTE, SMOTENN, and class weighting are applied.
 
 # Installation and Setup
 
@@ -20,11 +20,10 @@ This repository hosts an in-depth analysis of ride-share customer behavior in Ch
 
 ## Python Packages Used
 
-  - <b>General Purpose</b>: NA
-  - <b>Data Manipulation</b>: ```pandas```
-  - <b>Data Visualization</b>: ```plotly.express```
-  - <b>Statistical Analysis</b>: ```SciPy, researchpy```
-  - <b>Machine Learning</b>: NA
+  - <b>General Purpose</b>: ```numpy```  
+  - <b>Data Manipulation</b>: ```pandas```  
+  - <b>Data Visualization</b>: ```matplotlib, seaborn```  
+  - <b>Machine Learning</b>: ```imblearn, sklearn```  
 
 ## Installing development requirements
 
