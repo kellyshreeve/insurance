@@ -62,7 +62,7 @@ Data were checked for missing values and duplicates. None were found and no impu
 # Results and Evaluation
 
 <p align="center">
-  <img src="/main/images/eda.png" 
+  <img src="/images/eda.png" 
   alt="sns pair plot of variables colored by receiving benefits">
 </p>
 
