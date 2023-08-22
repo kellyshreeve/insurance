@@ -62,18 +62,22 @@ Data were checked for missing values and duplicates. None were found and no impu
 # Results and Evaluation
 
 <p align="center">
-  <img src="/images/eda.png" 
+  <img src="/images/eda.png"
+  width="400"
+  height="400"
   alt="sns pair plot of variables colored by receiving benefits">
 </p>
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/Zuber_Rides_Analysis/blob/main/images/drop-offs.png" 
-  alt="Bar graph of average drop offs by neighborhood">
+  <img src="/images/binary_results.png" 
+  width="400"
+  height="300"
+  alt="Results of binary classification model tuning">
 </p>
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/Zuber_Rides_Analysis/blob/main/images/hypothesis-test.png" 
-  alt="Statistical output of two-indpendent samples t-test comparing average trip length in good vs bad weather">
+  <img src="/images/binary_test.png" 
+  alt="Test results of logistic regression with threshold = 0.43">
 </p>
 
 # Future Work
