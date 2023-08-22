@@ -61,7 +61,7 @@ Data were checked for missing values and duplicates. None were found and no impu
 
 # Results and Evaluation
 
-Pairplot of datset, colored by received insurance benefit:  
+Pairplot of dataset  
 <p align="left">
   <img src="/images/eda.png"
   width="600"
@@ -69,7 +69,7 @@ Pairplot of datset, colored by received insurance benefit:
   alt="sns pair plot of variables colored by receiving benefits">
 </p>
 
-There is clear benefit clustering by age.
+There is clustering in insurance benefits by age.
 
 <p align="left">
   <img src="/images/binary_results.png" 
@@ -87,7 +87,7 @@ The best binary classifier is a logistic regression with threshold optimized to 
   alt="Test results of logistic regression with threshold = 0.43">
 </p>
 
-On the test set, the logistic regression with threshold = 0.43 again achieved scores of 1.0 across the board. This model is a perfect predictor.
+On the test set, the logistic regression with threshold = 0.43 again achieved scores of 1.0 across the board. This model is a perfect predictor of whether a person will use insurance benefits or not.
 
 <p align="left">
   <img src="/images/multi_results.png"
@@ -105,7 +105,7 @@ The random forest model with SMOTEENN balanced and weighted classes achieved the
   alt="Test results of random forest multi class classification">
 </p>
 
-The random forest model with SMOTEENN and class weighting achieved similar results on the test set, achieving an F1 macro of 0.9764. This is a well fitting model and can be trusted to make predictions on data it has not seen yet.
+The random forest model with SMOTEENN and class weighting achieved similar results on the test set, achieving an F1 macro of 0.9764. This is a well fitting model and can be trusted to predict how many benefits a customer will use.
 
 # Conclusions
 
