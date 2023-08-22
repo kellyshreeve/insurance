@@ -32,7 +32,7 @@ An imbalanced classification machine learning project predicting two outomes: 1)
 <b>Features</b>
   * *gender*: customer's gender  
   * *age*: customer's age    
-  * *salarye*: customer's yearly income  
+  * *salary*: customer's yearly income  
   * *family_members*: number of additional members in the family  
 
 <b>Targets</b>
@@ -87,7 +87,7 @@ Logistic regression with threshold optimized to 0.43 achieved an average F1, ROC
   alt="Test results of logistic regression with threshold = 0.43">
 </p>
 
-The logistic regression with threshold = 0.43 performed at the same level on the test set, again achieving scores of 1.0 across all scores.
+The logistic regression with threshold = 0.43 again achieved scores of 1.0 across all scores.
 
 <p align="left">
   <img src="/images/multi_results.png"
@@ -96,7 +96,7 @@ The logistic regression with threshold = 0.43 performed at the same level on the
   alt="Results of multi class classification model tuning">
 </p>
 
-SMOTEENN balanced classes with the random forest model using weighted class weights achieved the best multi-class classification results, scoring a macro-averaged F1 score of 0.9894.
+The random forest model with SMOTEENN balanced and weighted classes achieved the best multi-class classification results, scoring a macro-averaged F1 score of 0.9894.
 
 <p align="left">
   <img src="/images/multi_test.png"
