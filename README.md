@@ -61,7 +61,7 @@ Data were checked for missing values and duplicates. None were found and no impu
 
 # Results and Evaluation
 
-Pairplot by received insurance benefit:  
+Pairplot of datset, colored by received insurance benefit:  
 <p align="left">
   <img src="/images/eda.png"
   width="550"
@@ -69,7 +69,7 @@ Pairplot by received insurance benefit:
   alt="sns pair plot of variables colored by receiving benefits">
 </p>
 
-There is clear clustering in receiving benefits by age.
+There is clear clustering in whether someone receives benefits by age.
 
 <p align="left">
   <img src="/images/binary_results.png" 
@@ -107,4 +107,5 @@ SMOTEENN balanced classes with the random forest model using weighted class weig
 
 The random forest model with SMOTEENN and class weighting achieved similar results on the test set, achieving an F1 macro of 0.9764.
 
+# Conclusions
 
