@@ -70,17 +70,31 @@ Data were checked for missing values and duplicates. None were found and no impu
 
 <p align="center">
   <img src="/images/binary_results.png" 
-  width="400"
+  width="500"
   height="300"
   alt="Results of binary classification model tuning">
 </p>
 
 <p align="center">
-  <img src="/images/binary_test.png" 
+  <img src="/images/binary_test.png"
+  width="350"
+  height="250"
   alt="Test results of logistic regression with threshold = 0.43">
 </p>
 
-# Future Work
+<p align="center">
+  <img src="/images/multi_results.png"
+  width="500"
+  height="300"
+  alt="Results of multi class classification model tuning">
+</p>
 
-# Acknowledgments/References
+<p align="center">
+  <img src="/images/multi_test.png"
+  width="350"
+  height="250"
+  alt="Test results of random forest multi class classification">
+</p>
+
+
 
