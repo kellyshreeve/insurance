@@ -71,28 +71,28 @@ Data were checked for missing values and duplicates. None were found and no impu
 <p align="left">
   <img src="/images/binary_results.png" 
   width="500"
-  height="240"
+  height="250"
   alt="Results of binary classification model tuning">
 </p>
 
 <p align="left">
   <img src="/images/binary_test.png"
-  width="300"
+  width="310"
   height="90"
   alt="Test results of logistic regression with threshold = 0.43">
 </p>
 
 <p align="left">
   <img src="/images/multi_results.png"
-  width="675"
+  width="690"
   height="250"
   alt="Results of multi class classification model tuning">
 </p>
 
 <p align="left">
   <img src="/images/multi_test.png"
-  width="520"
-  height="90"
+  width="510"
+  height="100"
   alt="Test results of random forest multi class classification">
 </p>
 
