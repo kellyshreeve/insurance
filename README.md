@@ -61,35 +61,35 @@ Data were checked for missing values and duplicates. None were found and no impu
 
 # Results and Evaluation
 
-<p align="center">
+<p align="left">
   <img src="/images/eda.png"
   width="500"
   height="500"
   alt="sns pair plot of variables colored by receiving benefits">
 </p>
 
-<p align="center">
+<p align="left">
   <img src="/images/binary_results.png" 
   width="500"
   height="250"
   alt="Results of binary classification model tuning">
 </p>
 
-<p align="center">
+<p align="left">
   <img src="/images/binary_test.png"
   width="400"
   height="100"
   alt="Test results of logistic regression with threshold = 0.43">
 </p>
 
-<p align="center">
+<p align="left">
   <img src="/images/multi_results.png"
   width="600"
   height="250"
   alt="Results of multi class classification model tuning">
 </p>
 
-<p align="center">
+<p align="left">
   <img src="/images/multi_test.png"
   width="550"
   height="100"
