@@ -84,14 +84,14 @@ Data were checked for missing values and duplicates. None were found and no impu
 
 <p align="center">
   <img src="/images/multi_results.png"
-  width="550"
+  width="600"
   height="250"
   alt="Results of multi class classification model tuning">
 </p>
 
 <p align="center">
   <img src="/images/multi_test.png"
-  width="500"
+  width="550"
   height="150"
   alt="Test results of random forest multi class classification">
 </p>
