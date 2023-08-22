@@ -61,12 +61,15 @@ Data were checked for missing values and duplicates. None were found and no impu
 
 # Results and Evaluation
 
+Pairplot by received insurance benefit:  
 <p align="left">
   <img src="/images/eda.png"
   width="550"
   height="550"
   alt="sns pair plot of variables colored by receiving benefits">
 </p>
+
+There is clear clustering in receiving benefits by age.
 
 <p align="left">
   <img src="/images/binary_results.png" 
@@ -75,12 +78,16 @@ Data were checked for missing values and duplicates. None were found and no impu
   alt="Results of binary classification model tuning">
 </p>
 
+Logistic regression with threshold optimized to 0.43 achieved an average F1, ROC AUC, accuracy, precision, and recall of 1.0 on the cross-validated training data.
+
 <p align="left">
   <img src="/images/binary_test.png"
   width="310"
   height="90"
   alt="Test results of logistic regression with threshold = 0.43">
 </p>
+
+The logistic regression with threshold = 0.43 performed at the same level on the test set, again achieving scores of 1.0 across all scores.
 
 <p align="left">
   <img src="/images/multi_results.png"
@@ -89,6 +96,8 @@ Data were checked for missing values and duplicates. None were found and no impu
   alt="Results of multi class classification model tuning">
 </p>
 
+SMOTEENN balanced classes with the random forest model using weighted class weights achieved the best multi-class classification results, scoring a macro-averaged F1 score of 0.9894.
+
 <p align="left">
   <img src="/images/multi_test.png"
   width="510"
@@ -96,5 +105,6 @@ Data were checked for missing values and duplicates. None were found and no impu
   alt="Test results of random forest multi class classification">
 </p>
 
+The random forest model with SMOTEENN and class weighting achieved similar results on the test set, achieving an F1 macro of 0.9764.
 
 
