@@ -1,7 +1,9 @@
 # Predicting Number of Insurance Benefits
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/predicting-insurance-benefits/blob/main/images/insurance_clipart.png" 
+  <img src="https://github.com/kellyshreeve/predicting-insurance-benefits/blob/main/images/insurance_clipart.png"
+  width="400"
+  height="300"
   alt="Insurance clip art">
 </p>
 
