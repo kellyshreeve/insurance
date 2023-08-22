@@ -9,7 +9,7 @@
 
 # Project Overview
 
-An imbalanced classification machine learning project predicting two outomes: 1) whether a customer will use insurance benefits, and 2) how many benefits a customer will use. Pipelines, GridSearchCV, and class balancing techniques are used to fit and tune kNN binary classification, logistic regression, kNN multi-class classification, and random forest multi-class classification. Class balancing techniques of SMOTE, SMOTENN, and class weighting are applied.
+An imbalanced classification machine learning project predicting two outomes: 1) whether a customer will use insurance benefits, and 2) how many benefits a customer will use. Pipelines, GridSearchCV, and class balancing techniques are used to fit and tune kNN binary classification, logistic regression, kNN multi-class classification, and random forest multi-class classification. Class balancing techniques of SMOTE, SMOTEENN, and class weighting are applied.
 
 # Installation and Setup
 
@@ -25,27 +25,17 @@ An imbalanced classification machine learning project predicting two outomes: 1)
   - <b>Data Visualization</b>: ```matplotlib, seaborn```  
   - <b>Machine Learning</b>: ```imblearn, sklearn```  
 
-## Installing development requirements
-
-```pip install -r requirements.txt```
-
 # Data
 
 ## Source Data
 
-sql_result_01.csv
-  * *company_name*: taxi company name
-  * *trips_amount*: the number of rides for each taxi company on November 15-16, 2017  
-
-sql_result_04.csv
-  * *dropoff_location_name*: Chicago neighborhoods where rides ended
-  * *average_trips*: the average number of rides that ended in each neighborhood in November 2017  
-
-sql_result_07.csv
-  * *start_ts*: picup date and time
-  * *weather_conditions*: weather conditions at the moment the ride started
-  * *duration_seconds*: ride duration in seconds
-
+insurance_us.csv
+  * *gender*: customer's gender  
+  * *age*: customer's age    
+  * *salarye*: customer's yearly income  
+  * *family_members*: number of additional members in the family  
+  * *insurance_benefits*: number of benefits used  
+ 
 ## Data Acquisition
 
 The data were retrieved through HTML parsing and SQL queries of a large database provided by TripleTen. 
