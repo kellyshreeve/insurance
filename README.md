@@ -29,16 +29,19 @@ An imbalanced classification machine learning project predicting two outomes: 1)
 
 ## Source Data
 
-insurance_us.csv
+<b>Features</b>
   * *gender*: customer's gender  
   * *age*: customer's age    
   * *salarye*: customer's yearly income  
   * *family_members*: number of additional members in the family  
+
+<b>Targets</b>
   * *insurance_benefits*: number of benefits used  
+  * *received_benefits*: whether customer received benefits or not
  
 ## Data Acquisition
 
-The data were retrieved through HTML parsing and SQL queries of a large database provided by TripleTen. 
+The data were provided by TripleTen's Data Science bootcamp. The full dataset is loaded into the notebook but is proprietary information and cannot be shared online.
 
 ## Data Preprocessing
 
@@ -50,12 +53,10 @@ Data were checked for missing values and duplicates. None were found and no impu
   ├── README.md          
   │
   ├── images
-  │   └── car-picture.png    
+  │   └── insurance_clipart.png    
   │
-  ├── notebooks  
-  │   └── Zuber_Analysis.ipynb 
-  │
-  └── requirements.txt  
+  └── notebooks  
+      └── insurance_analysis.ipynb  
 ```
 
 # Results and Evaluation
