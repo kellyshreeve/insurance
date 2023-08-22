@@ -64,12 +64,12 @@ Data were checked for missing values and duplicates. None were found and no impu
 Pairplot of datset, colored by received insurance benefit:  
 <p align="left">
   <img src="/images/eda.png"
-  width="550"
-  height="550"
+  width="600"
+  height="600"
   alt="sns pair plot of variables colored by receiving benefits">
 </p>
 
-There is clear clustering in whether someone receives benefits by age.
+There is clear benefit clustering by age.
 
 <p align="left">
   <img src="/images/binary_results.png" 
@@ -78,7 +78,7 @@ There is clear clustering in whether someone receives benefits by age.
   alt="Results of binary classification model tuning">
 </p>
 
-Logistic regression with threshold optimized to 0.43 achieved an average F1, ROC AUC, accuracy, precision, and recall of 1.0 on the cross-validated training data.
+The best binary classifier is a logistic regression with threshold optimized to 0.43. This model achieved an F1, ROC AUC, accuracy, precision, and recall of 1.0 on the cross-validated training data.
 
 <p align="left">
   <img src="/images/binary_test.png"
@@ -87,7 +87,7 @@ Logistic regression with threshold optimized to 0.43 achieved an average F1, ROC
   alt="Test results of logistic regression with threshold = 0.43">
 </p>
 
-The logistic regression with threshold = 0.43 again achieved scores of 1.0 across all scores.
+On the test set, the logistic regression with threshold = 0.43 again achieved scores of 1.0 across the board. This model is a perfect predictor.
 
 <p align="left">
   <img src="/images/multi_results.png"
@@ -105,7 +105,7 @@ The random forest model with SMOTEENN balanced and weighted classes achieved the
   alt="Test results of random forest multi class classification">
 </p>
 
-The random forest model with SMOTEENN and class weighting achieved similar results on the test set, achieving an F1 macro of 0.9764.
+The random forest model with SMOTEENN and class weighting achieved similar results on the test set, achieving an F1 macro of 0.9764. This is a well fitting model and can be trusted to make predictions on data it has not seen yet.
 
 # Conclusions
 
