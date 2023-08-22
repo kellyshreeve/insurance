@@ -63,36 +63,36 @@ Data were checked for missing values and duplicates. None were found and no impu
 
 <p align="left">
   <img src="/images/eda.png"
-  width="500"
-  height="500"
+  width="550"
+  height="550"
   alt="sns pair plot of variables colored by receiving benefits">
 </p>
 
 <p align="left">
   <img src="/images/binary_results.png" 
   width="500"
-  height="250"
+  height="225"
   alt="Results of binary classification model tuning">
 </p>
 
 <p align="left">
   <img src="/images/binary_test.png"
-  width="400"
-  height="100"
+  width="350"
+  height="75"
   alt="Test results of logistic regression with threshold = 0.43">
 </p>
 
 <p align="left">
   <img src="/images/multi_results.png"
-  width="600"
+  width="650"
   height="250"
   alt="Results of multi class classification model tuning">
 </p>
 
 <p align="left">
   <img src="/images/multi_test.png"
-  width="550"
-  height="100"
+  width="520"
+  height="75"
   alt="Test results of random forest multi class classification">
 </p>
 
