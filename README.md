@@ -1,4 +1,4 @@
-# Predicting Number of Insurance Benefits
+# Predicting Insurance Benefits
 
 <p align="center">
   <img src="https://github.com/kellyshreeve/predicting-insurance-benefits/blob/main/images/insurance_clipart.png"
@@ -9,7 +9,7 @@
 
 # Project Overview
 
-An imbalanced classification machine learning project predicting two outomes: 1) whether a customer will use insurance benefits, and 2) how many benefits a customer will use. Pipelines, GridSearchCV, and class balancing techniques are used to fit and tune kNN binary classification, logistic regression, kNN multi-class classification, and random forest multi-class classification. Class balancing techniques of SMOTE, SMOTEENN, and class weighting are applied.
+An imbalanced classification machine learning project predicting two outomes: 1) whether a customer will use insurance benefits, and 2) how many benefits a customer will use. Pipelines, GridSearchCV, and class balancing techniques are used to fit and tune kNN binary classification, logistic regression, kNN multi-class classification, and random forest multi-class classification to maximize F1 score (binary) and macro-averaged F1 score (multi). Class balancing techniques of SMOTE, SMOTEENN, and class weighting are applied.
 
 # Installation and Setup
 
@@ -62,8 +62,8 @@ Data were checked for missing values and duplicates. None were found and no impu
 # Results and Evaluation
 
 <p align="center">
-  <img src="https://github.com/kellyshreeve/Zuber_Rides_Analysis/blob/main/images/trips-company.png" 
-  alt="Bar graph of total trips by company">
+  <img src="/main/images/eda.png" 
+  alt="sns pair plot of variables colored by receiving benefits">
 </p>
 
 <p align="center">
