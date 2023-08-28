@@ -68,8 +68,7 @@ Data were checked for missing values and duplicates. None were found and no impu
 ```
 
 # Results and Evaluation
-
-Pairplot of dataset  
+ 
 <p align="left">
   <img src="/images/eda.png"
   width="600"
