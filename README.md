@@ -13,7 +13,11 @@ An imbalanced classification supervised machine learning project predicting two 
 1) Whether a customer will use insurance benefits
 3) How many benefits a customer will use  
 
-Techiniques: Pipelines, GridSearchCV, and class balancing are used to fit and tune kNN binary classification, logistic regression, kNN multi-class classification, and random forest multi-class classification to maximize F1 score (binary) and macro-averaged F1 score (multi). Class balancing techniques of SMOTE, SMOTEENN, and class weighting are applied.
+Techiniques: Pipelines, GridSearchCV, and SMOTE, SMOTEENN, and class weighting are applied to balance, tune, and fit binary and multi-class classifications. 
+
+Binary Models: KNN binary classification and logistic regression are fit to maximize F1 score.
+
+Multi-Class Models: KNN and random forest multi-class classification are fit to maximize macro-averaged F1 score.
 
 # Installation and Setup
 
