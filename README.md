@@ -9,10 +9,8 @@
 
 # Project Overview
 
-An imbalanced classification machine learning project predicting two outomes:  
-
+An imbalanced classification supervised machine learning project predicting two outomes:  
 1) Whether a customer will use insurance benefits
-   
 3) How many benefits a customer will use  
 
 Techiniques: Pipelines, GridSearchCV, and class balancing are used to fit and tune kNN binary classification, logistic regression, kNN multi-class classification, and random forest multi-class classification to maximize F1 score (binary) and macro-averaged F1 score (multi). Class balancing techniques of SMOTE, SMOTEENN, and class weighting are applied.
