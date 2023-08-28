@@ -9,15 +9,15 @@
 
 # Project Overview
 
-An imbalanced classification supervised machine learning project predicting two outomes:  
+**Purpose:** An imbalanced classification supervised machine learning project predicting two outomes:  
 1) Whether a customer will use insurance benefits
 3) How many benefits a customer will use  
 
-Techiniques: Pipelines, GridSearchCV, and SMOTE, SMOTEENN, and class weighting are applied to balance, tune, and fit binary and multi-class classifications. 
+**Techiniques:** Pipelines, GridSearchCV, and SMOTE, SMOTEENN, and class weighting are applied to balance, tune, and fit binary and multi-class classifications. 
 
-Binary Models: KNN binary classification and logistic regression are fit to maximize F1 score.
+**Binary Models:** KNN binary classification and logistic regression are fit to maximize F1 score.
 
-Multi-Class Models: KNN and random forest multi-class classification are fit to maximize macro-averaged F1 score.
+**Multi-Class Models:** KNN and random forest multi-class classification are fit to maximize macro-averaged F1 score.
 
 # Installation and Setup
 
