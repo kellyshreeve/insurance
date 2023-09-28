@@ -7,7 +7,7 @@
   alt="Insurance clip art">
 </p>
 
-# Project Overview
+## Project Overview
 
 **Purpose:** An imbalanced classification supervised machine learning project predicting two outomes:  
 1) Whether a customer will use insurance benefits
@@ -19,43 +19,41 @@
 
 **Multi-Class Models:** KNN and random forest multi-class classification are fit to maximize macro-averaged F1 score.
 
-# Installation and Setup
+## Installation and Setup
 
-## Codes and Resources Used
+### Codes and Resources Used
 
-  - <b>Editor Used</b>: Visual Studio Code
-  - <b>Python Version</b>: 3.10.9
+  -**Editor Used**: Visual Studio Code
+  -**Python Version**: 3.10.9
 
-## Python Packages Used
+### Python Packages Used
 
-  - <b>General Purpose</b>: ```numpy```  
-  - <b>Data Manipulation</b>: ```pandas```  
-  - <b>Data Visualization</b>: ```matplotlib, seaborn```  
-  - <b>Machine Learning</b>: ```imblearn, sklearn```  
+  -**General Purpose**: ```numpy```  
+  -**Data Manipulation**: ```pandas```  
+  -**Data Visualization**: ```matplotlib, seaborn```  
+  -**Machine Learning**: ```imblearn, sklearn```  
 
-# Data
+## Data
 
-## Source Data
-
-<b>Features</b>
+### Source Data
+**Features**
   * *gender*: customer's gender  
   * *age*: customer's age    
   * *salary*: customer's yearly income  
   * *family_members*: number of additional members in the family  
-
-<b>Targets</b>
+**Targets**
   * *insurance_benefits*: number of benefits used  
   * *received_benefits*: whether customer received benefits or not
  
-## Data Acquisition
+### Data Acquisition
 
 The data were provided by TripleTen's Data Science bootcamp. The full dataset is loaded into the notebook but is proprietary information and cannot be shared online.
 
-## Data Preprocessing
+### Data Preprocessing
 
 Data were checked for missing values and duplicates. None were found and no imputation was necessary.
  
-# Code Structure
+## Code Structure
 ```
   ├── LICENSE
   ├── README.md          
@@ -67,7 +65,9 @@ Data were checked for missing values and duplicates. None were found and no impu
       └── insurance_analysis.ipynb  
 ```
 
-# Results and Evaluation
+## Results and Evaluation
+
+### Exploratory Analysis
  
 <p align="left">
   <img src="/images/eda.png"
@@ -77,6 +77,9 @@ Data were checked for missing values and duplicates. None were found and no impu
 </p>
 
 There is clustering in insurance benefits by age.
+
+### Binary Classification
+
 
 <p align="left">
   <img src="/images/binary_results.png" 
@@ -96,6 +99,8 @@ The best binary classifier is a logistic regression with threshold optimized to 
 
 On the test set, the logistic regression with threshold = 0.43 again achieved scores of 1.0 across the board. This model is a perfect predictor of whether a person will use insurance benefits or not.
 
+### Multi-Class Classification
+
 <p align="left">
   <img src="/images/multi_results.png"
   width="690"
@@ -114,6 +119,6 @@ The random forest model with SMOTEENN balanced and weighted classes achieved the
 
 The random forest model with SMOTEENN and class weighting achieved similar results on the test set, achieving an F1 macro of 0.9764. This is a well fitting model and can be trusted to predict how many benefits a customer will use.
 
-# Conclusions
+## Conclusions
 
 Both models proved to be excellent predictors of the benefits a customer will receive based on their gender, age, income, and family size. Sure Tomorrow can feel confident putting this models into practice to predict numbers of benefits new customers are expected to use. They can use these models to set accurate premiums and maximums for customers, based on their expected use.
