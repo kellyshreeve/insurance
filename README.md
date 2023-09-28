@@ -23,7 +23,7 @@
 
 ### Codes and Resources Used
 
-  -**Editor Used**: Visual Studio Code
+  -**Editor Used**: Visual Studio Code  
   -**Python Version**: 3.10.9
 
 ### Python Packages Used
@@ -41,6 +41,7 @@
   * *age*: customer's age    
   * *salary*: customer's yearly income  
   * *family_members*: number of additional members in the family  
+  
 **Targets**
   * *insurance_benefits*: number of benefits used  
   * *received_benefits*: whether customer received benefits or not
